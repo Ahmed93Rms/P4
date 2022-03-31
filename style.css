@@ -362,6 +362,13 @@ a:hover {
     z-index: 2;
 }
 
+.citationT
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .citation
 {
     font-weight: 200;
@@ -781,7 +788,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -828,7 +835,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
