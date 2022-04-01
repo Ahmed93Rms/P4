@@ -373,7 +373,7 @@ li:hover
     z-index: 2;
 }
 
-/* ajout de 3 class  */
+/* ajout de  class  */
 
 .citationT
 {
@@ -392,6 +392,34 @@ li:hover
 .marginh2
 {
     margin: 8px;
+}
+
+.infoCont
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.infoCont a 
+{
+    margin: 10px;
+}
+
+.infoCont a:hover
+{
+    background-color: #acacac;
+    border-radius: 10px;
+} 
+
+.centerForm
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 @media (min-width: 768px) {
