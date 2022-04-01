@@ -373,7 +373,7 @@ li:hover
     z-index: 2;
 }
 
-/* ajout d'une class  */
+/* ajout de 3 class  */
 
 .citationT
 {
@@ -387,6 +387,11 @@ li:hover
 {
     font-weight: 200;
     font-size: 18px;
+}
+
+.marginh2
+{
+    margin: 8px;
 }
 
 @media (min-width: 768px) {
