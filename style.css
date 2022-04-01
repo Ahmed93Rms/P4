@@ -332,6 +332,17 @@ a:hover {
     text-align: inherit;
 }
 
+li a
+{
+    font-size: 22px;
+}
+
+li:hover
+{
+    background-color: #f6f6f6;
+    border-radius: 25px;
+}
+
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
@@ -362,11 +373,14 @@ a:hover {
     z-index: 2;
 }
 
+/* ajout d'une class  */
+
 .citationT
 {
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin: 5px ;
 }
 
 .citation
@@ -675,10 +689,6 @@ a {
     font-size: 38px;
 }
 
-.hero-bloc-text-sub {
-    font-size: 36px;
-}
-
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
@@ -690,7 +700,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -712,13 +722,17 @@ p {
     font-weight: 700;
 }
 
+/* modif de la balise social  */
 .social {
-    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 500px;
     margin: auto auto auto auto;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 25px;
     line-height: 1.4em;
 }
 
@@ -783,8 +797,10 @@ h4 {
     background-color: #364577;
 }
 
+/* modif de certaine couleur  */
+
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #b33f0d;
 }
 
 .tc-white {
@@ -792,7 +808,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #b33f0d;
     color: #FFFFFF!important;
 }
 
@@ -861,13 +877,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max--width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -885,10 +901,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+    /* .bloc { interdit par W3C )
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    } */
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -897,8 +913,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right); */
     }
 }
 
