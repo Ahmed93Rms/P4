@@ -704,6 +704,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
+
 h1,
 h2,
 h3,
@@ -766,8 +767,14 @@ p {
     align-items: center;
     justify-content: space-evenly;
     max-width: 500px;
-    margin: auto auto auto auto;
+    margin: auto auto auto auto;    
 }
+
+.social a
+{
+    flex-direction: column;
+}
+
 
 h2 {
     font-size: 25px;
