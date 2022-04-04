@@ -408,6 +408,11 @@ li:hover
     margin: 10px;
 }
 
+.infoCont p
+{
+    font-size: 25px;
+}
+
 .infoCont a:hover
 {
     background-color: #acacac;
