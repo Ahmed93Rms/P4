@@ -403,16 +403,6 @@ li:hover
     font-size: 25px;
 }
 
-.infoCont a 
-{
-    margin: 10px;
-}
-
-.infoCont p
-{
-    font-size: 25px;
-}
-
 .infoCont a:hover
 {
     background-color: #acacac;
@@ -466,6 +456,7 @@ li:hover
         float: none;
         margin: 10px auto 0;
     }
+
 }
 
 .nav > li > .dropdown a {
@@ -963,6 +954,11 @@ h4 {
         padding: 0 20px;
         /* padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right); */
+    }
+
+    .infoCont
+    {
+        font-size: 15px;
     }
 }
 
